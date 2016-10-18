@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class ClienteServlet
  */
 @WebServlet("/ClienteServlet")
-public class ClienteServlet extends HttpServletas {
+public class ClienteServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("bad: ").append(request.getContextPath());
+		response.getWriter().append("tafstafst: ").append(request.getContextPath());
 	}
 
 }
